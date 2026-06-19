@@ -1,0 +1,21 @@
+@"
+# Exclude parent frontend folder
+../frontend
+
+# Exclude node_modules (biggest folder)
+node_modules/
+
+# Exclude parent node_modules
+../node_modules
+
+# Exclude local build artifacts
+android/
+ios/
+.expo/
+dist/
+*.log
+*.map
+coverage/
+__tests__/
+docs/
+"@ | Set-Content -Path ".easignore"

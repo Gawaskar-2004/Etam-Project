@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.env
+*.env
+tsconfig.tsbuildinfo
+.expo/
+android/app/build/
+ios/build/
+*.log
+.git_backup/
+**/public/models/

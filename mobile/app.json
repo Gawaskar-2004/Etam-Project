@@ -1,0 +1,79 @@
+{
+  "expo": {
+    "name": "ETAM",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow ETAM to access your camera for face attendance.",
+          "microphonePermission": "Allow ETAM to access your microphone."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow ETAM to access your photos to register student faces.",
+          "cameraPermission": "Allow ETAM to access your camera to register student faces."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/adaptive-icon.png",
+          "color": "#6366F1",
+          "androidMode": "default",
+          "androidCollapsedTitle": "ETAM",
+          "sounds": []
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.etam.mobile",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.INTERNET",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.USE_EXACT_ALARM"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#4f46e5"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.etam.mobile",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "ETAM uses your camera for face attendance scanning.",
+        "NSPhotoLibraryUsageDescription": "ETAM accesses your photos to register student faces.",
+        "NSPhotoLibraryAddUsageDescription": "ETAM saves photos for student face registration.",
+        "NSFaceIDUsageDescription": "ETAM uses Face ID for secure attendance verification.",
+        "NSMicrophoneUsageDescription": "ETAM may access microphone during camera use.",
+        "UIBackgroundModes": [
+          "remote-notification",
+          "remote-notification"
+        ],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/45b21be2-3ea6-40f1-9804-76c5d49505f9"
+    },
+    "extra": {
+      "apiUrl": "https://trustless-presbyterial-landen.ngrok-free.dev/api",
+      "eas": {
+        "projectId": "1ced6c9a-156f-44a5-bcdc-fb241e3661b1"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "747988676998",
+    "project_id": "etam-f505b",
+    "storage_bucket": "etam-f505b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747988676998:android:288673a3638e2db088bc07",
+        "android_client_info": {
+          "package_name": "com.etam.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqMjjo0YZlBcxyy3RkMqopLWIssarFMaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747988676998:android:ca78dfa374d5960c88bc07",
+        "android_client_info": {
+          "package_name": "etam.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqMjjo0YZlBcxyy3RkMqopLWIssarFMaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
